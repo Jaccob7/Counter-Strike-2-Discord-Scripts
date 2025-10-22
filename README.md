@@ -143,26 +143,18 @@ ps aux | grep cs2_monitor
 
 ## Discord Message Format
 
-The Discord message displays:
+The Discord message displays real-time server status with clean, organized formatting:
 
-```
-🎮 CS2 SERVERS 🎮
+![Discord Monitor Example](screenshot.png)
 
-🌊 Server 1 | 24/7
-→ `your.public.ip:27015`
-🟢 12 players
-🔄 05:42:30 (Restart)
-<#1234567890123456789>
+Each server shows:
+- **Server name** and 24/7 status indicator
+- **IP address** with port (clickable for easy copying)
+- **Current player count** with status indicator
+- **Restart countdown** showing time until next scheduled restart
+- **Channel link** for server-specific discussions
 
-🎮 Server 2 | 24/7
-→ `your.public.ip:27016`
-🟢 8 players
-🔄 05:42:30 (Restart)
-<#1234567890123456789>
-
-👥 Total Players Online: 20
-Updates every 20 seconds
-```
+The message footer displays total players across all servers and updates automatically every 20 seconds.
 
 ## How It Works
 
