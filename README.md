@@ -145,7 +145,7 @@ ps aux | grep cs2_monitor
 
 The Discord message displays real-time server status with clean, organized formatting:
 
-![Discord Monitor Example](screenshot.png)
+![Discord Monitor Example](Screenshot%202025-10-22%20035437.png)
 
 Each server shows:
 - **Server name** and 24/7 status indicator
